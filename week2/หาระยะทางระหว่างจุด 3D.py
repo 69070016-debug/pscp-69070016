@@ -1,7 +1,7 @@
+"""หาระยะทางระหว่างจุด 3D"""
 import math
-"""ddddd"""
 def main():
-    """ddddd"""
+    """หาระยะทางระหว่างจุด 3D"""
     a = input()
     asplit = a.split(" ")
     b = input()
