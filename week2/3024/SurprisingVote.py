@@ -1,8 +1,10 @@
-import math
-total = int(input())
-max = int(input())
-x = total - (max*2)
-if x > 2:
+"""abc"""
+total = float(input())
+maxx = float(input())
+x = total - (maxx*2)
+if x < 0:
+    x = 0
+if maxx - x > 2:
     print("Surprising")
 else:
     print("Not surprising")
